@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/taxi-poisson/precache-manifest.653c8e3d7e6ddcb2791f4ec7e9218976.js"
+  "/taxi-poisson/precache-manifest.28479590f606d7d4640d1f28dd2e5acb.js"
 );
 
 self.addEventListener('message', (event) => {
