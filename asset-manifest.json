@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/taxi-poisson/static/css/main.88ecea28.chunk.css",
+    "main.js": "/taxi-poisson/static/js/main.c9b1d917.chunk.js",
+    "main.js.map": "/taxi-poisson/static/js/main.c9b1d917.chunk.js.map",
+    "runtime-main.js": "/taxi-poisson/static/js/runtime-main.26230ace.js",
+    "runtime-main.js.map": "/taxi-poisson/static/js/runtime-main.26230ace.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/taxi-poisson/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.91d1d712.chunk.js": "/taxi-poisson/static/js/2.91d1d712.chunk.js",
+    "static/js/2.91d1d712.chunk.js.map": "/taxi-poisson/static/js/2.91d1d712.chunk.js.map",
+    "index.html": "/taxi-poisson/index.html",
+    "precache-manifest.653c8e3d7e6ddcb2791f4ec7e9218976.js": "/taxi-poisson/precache-manifest.653c8e3d7e6ddcb2791f4ec7e9218976.js",
+    "service-worker.js": "/taxi-poisson/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/taxi-poisson/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.88ecea28.chunk.css.map": "/taxi-poisson/static/css/main.88ecea28.chunk.css.map",
+    "static/js/2.91d1d712.chunk.js.LICENSE": "/taxi-poisson/static/js/2.91d1d712.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26230ace.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.91d1d712.chunk.js",
+    "static/css/main.88ecea28.chunk.css",
+    "static/js/main.c9b1d917.chunk.js"
+  ]
+}
