@@ -4,7 +4,7 @@ import {StyleSheet, css} from "aphrodite";
 
 import TaxiAnimation from "./TaxiAnimation";
 import Taxi from "./Taxi";
-import {relative} from "path";
+import Histogram from "./Histogram";
 
 const styles = StyleSheet.create({
   header: {
@@ -104,7 +104,7 @@ function App() {
             </p>
           </div>
 
-          <div className="col-9">
+          <div className="col-4">
             <table style={{margin: 20}}>
               <tbody>
                 <tr>
@@ -127,7 +127,7 @@ function App() {
                 </tr>
                 <tr>
                   <td>Average inter-arrival time:</td>
-                  <td>
+                  <td style={{color: "#6eb563"}}>
                     {(
                       taxiArrivals
                         .map(
@@ -141,7 +141,7 @@ function App() {
                 </tr>
                 <tr>
                   <td width={220}>Average interval while waiting:</td>
-                  <td>
+                  <td style={{color: "#da743a"}}>
                     {(
                       intervalTimes.reduce((sum, t) => sum + t, 0) /
                       intervalTimes.length
@@ -151,12 +151,15 @@ function App() {
               </tbody>
             </table>
           </div>
+          <div className="col-4">
+            <Histogram taxiArrivals={taxiArrivals} />
+          </div>
         </div>
       </div>
       <div className={css(styles.simHeader)}>
         <div></div>
         <div className={css(styles.stats)}>Avg interval</div>
-        <div className={css(styles.stats)}>My interval</div>
+        <div className={css(styles.stats)}>Wait interval</div>
       </div>
       {taxiArrivals.map((arrivals, i) => (
         <Taxi key={i} arrivals={arrivals} />
